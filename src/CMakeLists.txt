@@ -1,7 +1,9 @@
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
-find_package(Cython REQUIRED)
-
+set(CMAKE_FIND_DEBUG_MODE ON)
+set(Cython_DEBUG ON)
+#find_package(Cython REQUIRED)
+set(CYTHON_EXECUTABLE /opt/homebrew/bin/cython)
+message(STATUS "cython locationz: ${CYTHON_EXECUTABLE}")
 set(cython_module re2)
 
 set(re2_include_dir "${PROJECT_SOURCE_DIR}/src")
