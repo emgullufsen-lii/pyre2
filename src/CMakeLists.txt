@@ -2,7 +2,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_FIND_DEBUG_MODE ON)
 set(Cython_DEBUG ON)
 #find_package(Cython REQUIRED)
-set(CYTHON_EXECUTABLE /opt/homebrew/bin/cython)
+set(CYTHON_EXECUTABLE /opt/homebrew/Cellar/cython/0.29.32_1/bin/cython)
 message(STATUS "cython locationz: ${CYTHON_EXECUTABLE}")
 set(cython_module re2)
 
